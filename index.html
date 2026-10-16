@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+var day = new Date().getDay();
+var img;
+if (day === 6) { img = "saturday.png"; }
+else if (day === 0) { img = "sunday.png"; }
+else { img = "thu_fri.png"; }
+window.location.replace(img);
+</script>
+</head>
+<body></body>
+</html>
